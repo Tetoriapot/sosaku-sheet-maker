@@ -1,0 +1,65 @@
+.note {
+  background: var(--tint);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+  margin: 20px 0;
+}
+.note p {
+  margin: 8px 0 0;
+  overflow-wrap: anywhere;
+}
+.note p:last-child {
+  font-size: 13px;
+  color: var(--subtext);
+}
+.manager {
+  margin-top: 40px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 12px 0;
+}
+.row > div:first-child {
+  min-width: 0;
+  flex: 1 1 230px;
+}
+.row h3 {
+  margin: 0 0 5px;
+  overflow-wrap: anywhere;
+}
+.row small {
+  color: var(--subtext);
+  font-size: 12px;
+}
+.row button,
+.row a {
+  font-size: 12px;
+}
+.row > p {
+  width: 100%;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .row {
+    padding: 16px;
+  }
+  .row > div {
+    width: 100%;
+  }
+  .row button,
+  .row a {
+    flex: 1;
+  }
+  .note {
+    padding: 14px;
+  }
+}

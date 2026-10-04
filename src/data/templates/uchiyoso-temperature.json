@@ -1,0 +1,631 @@
+{
+  "id": "uchiyoso-temperature",
+  "title": "うちよそ温度感シート",
+  "description": "関係性の「好き」と「要相談」を、ゆっくりすり合わせる。",
+  "tagline": "関係性の「好き」と「要相談」を、ゆっくりすり合わせる。",
+  "category": "uchiyoso",
+  "emoji": "♡",
+  "author": "",
+  "color": "#7566d8",
+  "theme": "simple",
+  "sections": [
+    {
+      "id": "s0",
+      "title": "恋愛・関係性",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s0q0",
+          "text": "恋愛関係",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q1",
+          "text": "片思い",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q2",
+          "text": "告白",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q3",
+          "text": "ハグ",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q4",
+          "text": "キス",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q5",
+          "text": "同棲",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q6",
+          "text": "結婚",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q7",
+          "text": "別れ",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q8",
+          "text": "死別",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q9",
+          "text": "親友",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q10",
+          "text": "犬猿",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q11",
+          "text": "宿敵",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q12",
+          "text": "師弟",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q13",
+          "text": "主従",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q14",
+          "text": "共依存",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "描写・設定",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s1q0",
+          "text": "怪我",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q1",
+          "text": "流血",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q2",
+          "text": "死亡",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q3",
+          "text": "ロスト",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q4",
+          "text": "PCへの感情確定",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q5",
+          "text": "PCの行動確定",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q6",
+          "text": "過去設定の追加",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q7",
+          "text": "家族設定の追加",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s1q8",
+          "text": "設定の事前相談",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

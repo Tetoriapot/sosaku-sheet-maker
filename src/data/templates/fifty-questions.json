@@ -1,0 +1,495 @@
+{
+  "id": "fifty-questions",
+  "title": "うちの子への50の質問",
+  "description": "まだ知らない、うちの子の一面に出会う。",
+  "tagline": "まだ知らない、うちの子の一面に出会う。",
+  "category": "character",
+  "emoji": "✎",
+  "author": "",
+  "color": "#7566d8",
+  "theme": "simple",
+  "sections": [
+    {
+      "id": "s0",
+      "title": "基本",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s0q0",
+          "text": "名前とその由来は？",
+          "description": "",
+          "required": false,
+          "type": "short",
+          "options": []
+        },
+        {
+          "id": "s0q1",
+          "text": "年齢と誕生日は？",
+          "description": "",
+          "required": false,
+          "type": "short",
+          "options": []
+        },
+        {
+          "id": "s0q2",
+          "text": "身長と体格は？",
+          "description": "",
+          "required": false,
+          "type": "short",
+          "options": []
+        },
+        {
+          "id": "s0q3",
+          "text": "職業・役割は？",
+          "description": "",
+          "required": false,
+          "type": "short",
+          "options": []
+        },
+        {
+          "id": "s0q4",
+          "text": "外見で気に入っているところは？",
+          "description": "",
+          "required": false,
+          "type": "short",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "title": "性格",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s1q0",
+          "text": "自分の性格を一言でいうと？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s1q1",
+          "text": "長所は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s1q2",
+          "text": "短所は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s1q3",
+          "text": "怒るのはどんなとき？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s1q4",
+          "text": "緊張するとどうなる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "生活",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s2q0",
+          "text": "朝起きて最初にすることは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s2q1",
+          "text": "好きな食べ物は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s2q2",
+          "text": "苦手な食べ物は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s2q3",
+          "text": "休日の過ごし方は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s2q4",
+          "text": "眠れない夜は何をする？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "過去",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s3q0",
+          "text": "一番古い記憶は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s3q1",
+          "text": "子どもの頃の夢は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s3q2",
+          "text": "人生の転機は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s3q3",
+          "text": "忘れられない失敗は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s3q4",
+          "text": "大切な思い出は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "家族",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s4q0",
+          "text": "家族構成は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s4q1",
+          "text": "家族との関係は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s4q2",
+          "text": "家族から何と呼ばれる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s4q3",
+          "text": "誰に一番似ている？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s4q4",
+          "text": "家族に伝えたいことは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "人間関係",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s5q0",
+          "text": "一番信頼している人は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s5q1",
+          "text": "友達を作るのは得意？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s5q2",
+          "text": "苦手な相手は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s5q3",
+          "text": "ライバルはいる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s5q4",
+          "text": "人に頼ることはできる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "恋愛",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s6q0",
+          "text": "恋愛をどう考えている？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s6q1",
+          "text": "好きになる相手は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s6q2",
+          "text": "好意をどう伝える？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s6q3",
+          "text": "理想のデートは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s6q4",
+          "text": "別れをどう受け止める？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "価値観",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s7q0",
+          "text": "一番大切なものは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s7q1",
+          "text": "譲れない信念は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s7q2",
+          "text": "許せないことは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s7q3",
+          "text": "幸せとは何？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s7q4",
+          "text": "何のために頑張る？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "秘密",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s8q0",
+          "text": "誰にも言えない秘密は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s8q1",
+          "text": "隠している弱点は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s8q2",
+          "text": "本当は欲しいものは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s8q3",
+          "text": "一番怖いものは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s8q4",
+          "text": "後悔していることは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "もしも",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s9q0",
+          "text": "一つだけ願いが叶うなら？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s9q1",
+          "text": "過去に戻れるなら？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s9q2",
+          "text": "明日世界が終わるなら？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s9q3",
+          "text": "別の人生を選ぶなら？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s9q4",
+          "text": "未来の自分へ伝えたいことは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

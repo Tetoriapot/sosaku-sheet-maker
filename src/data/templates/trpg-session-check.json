@@ -1,0 +1,423 @@
+{
+  "id": "trpg-session-check",
+  "title": "TRPG卓前チェック",
+  "description": "セッションの前に、楽しみ方と境界線を確認。",
+  "tagline": "セッションの前に、楽しみ方と境界線を確認。",
+  "category": "trpg",
+  "emoji": "⚄",
+  "author": "",
+  "color": "#7566d8",
+  "theme": "simple",
+  "sections": [
+    {
+      "id": "s0",
+      "title": "卓のすり合わせ",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s0q0",
+          "text": "PCロスト",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q1",
+          "text": "NPCロスト",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q2",
+          "text": "PvP",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q3",
+          "text": "秘匿",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q4",
+          "text": "裏切り",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q5",
+          "text": "恋愛RP",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q6",
+          "text": "ホラー描写",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q7",
+          "text": "グロテスク描写",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q8",
+          "text": "長時間セッション",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q9",
+          "text": "録音・配信",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q10",
+          "text": "ルールの相談",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q11",
+          "text": "シナリオの難易度",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q12",
+          "text": "途中休憩",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q13",
+          "text": "予定変更",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q14",
+          "text": "ネタバレの扱い",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q15",
+          "text": "セッション後の感想",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

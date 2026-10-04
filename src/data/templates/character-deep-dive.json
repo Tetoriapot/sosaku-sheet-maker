@@ -1,0 +1,119 @@
+{
+  "id": "character-deep-dive",
+  "title": "キャラクター深掘り質問",
+  "description": "選択、記憶、価値観。キャラクターの輪郭を深める。",
+  "tagline": "選択、記憶、価値観。キャラクターの輪郭を深める。",
+  "category": "character",
+  "emoji": "✧",
+  "author": "",
+  "color": "#7566d8",
+  "theme": "simple",
+  "sections": [
+    {
+      "id": "s0",
+      "title": "内面",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s0q0",
+          "text": "誰の前なら弱さを見せられる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q1",
+          "text": "大切なものを失ったらどうする？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q2",
+          "text": "正しさと優しさのどちらを選ぶ？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q3",
+          "text": "誰にも理解されないと感じることは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q4",
+          "text": "自分を変えた出会いは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q5",
+          "text": "救われた言葉は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q6",
+          "text": "本当に欲しいものは？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q7",
+          "text": "忘れたい記憶は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q8",
+          "text": "信頼が崩れるのはどんなとき？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q9",
+          "text": "自分自身を許せる？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q10",
+          "text": "守りたい約束は？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        },
+        {
+          "id": "s0q11",
+          "text": "物語の終わりで何を得たい？",
+          "description": "",
+          "required": false,
+          "type": "long",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

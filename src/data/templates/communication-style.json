@@ -1,0 +1,323 @@
+{
+  "id": "communication-style",
+  "title": "交流スタンスシート",
+  "description": "連絡のペースも、創作の距離感も、人それぞれ。",
+  "tagline": "連絡のペースも、創作の距離感も、人それぞれ。",
+  "category": "communication",
+  "emoji": "☏",
+  "author": "",
+  "color": "#7566d8",
+  "theme": "simple",
+  "sections": [
+    {
+      "id": "s0",
+      "title": "交流のペース",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "s0q0",
+          "text": "返信のペース",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q1",
+          "text": "返信の催促",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q2",
+          "text": "交流のお誘い",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q3",
+          "text": "短文での交流",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q4",
+          "text": "長文での交流",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q5",
+          "text": "事前相談",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q6",
+          "text": "関係性の変更",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q7",
+          "text": "作品への登場",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q8",
+          "text": "SNSへの掲載",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q9",
+          "text": "お休みの連絡",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q10",
+          "text": "交流の終了",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "s0q11",
+          "text": "感想の送り合い",
+          "description": "",
+          "required": false,
+          "type": "four_level",
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

@@ -1,0 +1,120 @@
+.sheet {
+  --sheet-bg: #fff;
+  --sheet-fg: #302c3c;
+  --sheet-sub: #696374;
+  --sheet-line: #ded9e5;
+  background: var(--sheet-bg);
+  color: var(--sheet-fg);
+  border-radius: 10px;
+  border: 1px solid var(--sheet-line);
+  border-top: 5px solid var(--accent);
+  padding: 32px;
+  overflow-wrap: anywhere;
+  box-shadow: 0 5px 20px #24203306;
+  color-scheme: light;
+}
+.eyebrow {
+  font-size: 9px;
+  letter-spacing: 0.18em;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+.sheet h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.description {
+  font-size: 13px;
+  color: var(--sheet-sub);
+  white-space: pre-wrap;
+}
+.name {
+  font-size: 12px;
+  color: var(--sheet-sub);
+}
+.sheet section {
+  margin-top: 30px;
+}
+.sheet h3 {
+  font-size: 15px;
+  background: color-mix(in srgb, var(--accent) 8%, var(--sheet-bg));
+  border-left: 3px solid var(--accent);
+  padding: 8px 12px;
+  margin-bottom: 0;
+}
+.sheet section > p {
+  font-size: 12px;
+  color: var(--sheet-sub);
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
+.row {
+  padding: 15px 0;
+  border-bottom: 1px solid var(--sheet-line);
+  font-size: 13px;
+}
+.row strong {
+  font-weight: 600;
+}
+.row small {
+  display: block;
+  font-size: 11px;
+  color: var(--sheet-sub);
+  margin-top: 6px;
+  white-space: pre-wrap;
+}
+.answer {
+  margin-top: 8px;
+  white-space: pre-wrap;
+  font-size: 14px;
+  line-height: 1.8;
+}
+.placeholder {
+  font-size: 10px;
+  color: var(--sheet-sub);
+  margin-top: 10px;
+}
+.sheet footer {
+  text-align: right;
+  font-size: 9px;
+  color: var(--sheet-sub);
+  margin-top: 30px;
+}
+.pastel {
+  --sheet-bg: #f3effa;
+  --sheet-line: #d1c8e2;
+}
+.dark {
+  --sheet-bg: #252530;
+  --sheet-fg: #fff;
+  --sheet-sub: #ccccdf;
+  --sheet-line: #666674;
+  color-scheme: dark;
+}
+.notebook {
+  --sheet-bg: #fffbed;
+  --sheet-fg: #35352d;
+  --sheet-sub: #66614f;
+  --sheet-line: #d6d0bb;
+  background-image: repeating-linear-gradient(
+    transparent,
+    transparent 31px,
+    #d6d0bb66 32px
+  );
+}
+.mono {
+  --accent: #222 !important;
+  --sheet-fg: #000;
+  --sheet-sub: #444;
+  --sheet-line: #888;
+}
+@media (max-width: 767px) {
+  .sheet {
+    padding: 22px 18px;
+  }
+  .sheet h2 {
+    font-size: 20px;
+  }
+}

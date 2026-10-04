@@ -1,0 +1,142 @@
+.form {
+  max-width: 760px;
+  margin: 44px auto;
+}
+.form > h1 {
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+.progress {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: var(--subtext);
+  font-size: 12px;
+  margin: 26px 0;
+}
+.progress progress {
+  width: 100%;
+  height: 7px;
+  appearance: none;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.progress progress::-webkit-progress-bar {
+  background: var(--border);
+}
+.progress progress::-webkit-progress-value {
+  background: var(--primary);
+}
+.form form > label {
+  padding: 24px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+}
+.form section {
+  margin-top: 36px;
+}
+.form section > h2 {
+  font-size: 19px;
+  border-left: 3px solid var(--primary);
+  padding-left: 14px;
+}
+.field {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 24px;
+  background: var(--surface);
+  margin: 24px 0;
+  min-width: 0;
+  scroll-margin-top: 80px;
+}
+.field legend {
+  padding: 0 8px;
+  font-weight: 600;
+  font-size: 16px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.field legend > span {
+  font-size: 11px;
+  color: var(--primary);
+  margin-right: 12px;
+}
+.field legend > small {
+  font-size: 10px;
+  padding: 3px 6px;
+  background: var(--tint);
+  color: var(--primary);
+  border-radius: 4px;
+  margin-left: 10px;
+}
+.field details {
+  margin-bottom: 0;
+}
+.error {
+  border: 2px solid var(--danger);
+}
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.choices label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin: 0;
+  min-height: 48px;
+  cursor: pointer;
+  flex: 1 1 100px;
+  font-size: 13px;
+  overflow-wrap: anywhere;
+}
+.choices input {
+  margin: 0;
+}
+.choices label.selected {
+  border-color: var(--primary);
+  background: var(--tint);
+  color: var(--primary);
+  font-weight: 600;
+}
+.slider > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--subtext);
+}
+.slider b {
+  font-weight: 500;
+  color: var(--primary);
+}
+@media (max-width: 767px) {
+  .form {
+    margin-top: 28px;
+  }
+  .field {
+    padding: 20px 14px;
+  }
+  .choices {
+    gap: 8px;
+  }
+  .choices label {
+    padding: 10px;
+    font-size: 12px;
+    flex: 1 1 40%;
+  }
+  .field legend {
+    font-size: 14px;
+  }
+  .slider > div {
+    font-size: 10px;
+    gap: 5px;
+  }
+}

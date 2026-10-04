@@ -1,0 +1,320 @@
+{
+  "id": "rp-policy",
+  "title": "RP方針シート",
+  "category": "communication",
+  "emoji": "❞",
+  "theme": "sage",
+  "color": "#53745c",
+  "tagline": "文量、返信、相談の仕方。心地よいRPのペースを見つける。",
+  "sections": [
+    {
+      "id": "p3-s0",
+      "title": "RPのスタイル",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s0q0",
+          "text": "好きなRPの進め方",
+          "type": "multiple",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "置きレス"
+            },
+            {
+              "value": "1",
+              "label": "リアルタイム"
+            },
+            {
+              "value": "2",
+              "label": "短文中心"
+            },
+            {
+              "value": "3",
+              "label": "長文中心"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q1",
+          "text": "得意な場面・描写",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s0q2",
+          "text": "日常のやりとり",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q3",
+          "text": "シリアスな展開",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q4",
+          "text": "好みの文量",
+          "type": "single",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "一言〜数行"
+            },
+            {
+              "value": "1",
+              "label": "段落単位"
+            },
+            {
+              "value": "2",
+              "label": "長文"
+            },
+            {
+              "value": "3",
+              "label": "相手に合わせる"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q5",
+          "text": "返信のペースについて",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "p3-s1",
+      "title": "相談と距離感",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s1q0",
+          "text": "事前に展開を相談する",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q1",
+          "text": "相手のキャラクターの行動を確定する",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q2",
+          "text": "予告なしの関係性の変化",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q3",
+          "text": "別世界線のRP",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q4",
+          "text": "交流内容をSNSに掲載する",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q5",
+          "text": "中断したいときの伝え方",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "p3-s2",
+      "title": "続けやすさ",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s2q0",
+          "text": "相談しやすい連絡方法",
+          "type": "short",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q1",
+          "text": "避けたい展開・描写",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q2",
+          "text": "返信が止まったときにしてほしいこと",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q3",
+          "text": "そのほか伝えたいこと",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "description": "文量、返信、相談の仕方。心地よいRPのペースを見つける。",
+  "author": "",
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

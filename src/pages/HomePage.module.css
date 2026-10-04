@@ -1,0 +1,431 @@
+.hero {
+  position: relative;
+  min-height: 395px;
+  padding: 56px 40px 50px;
+  margin: 32px 0 48px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  overflow: hidden;
+}
+.kicker {
+  color: var(--primary);
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.hero h1 {
+  font-size: 37px;
+  line-height: 1.65;
+  margin-bottom: 16px;
+  letter-spacing: 0.055em;
+}
+.hero h1 span {
+  color: var(--primary);
+}
+.hero > p {
+  color: var(--subtext);
+  font-size: 13px;
+  line-height: 1.9;
+}
+.hero > button {
+  margin-top: 6px;
+  gap: 32px;
+}
+.hero > small {
+  display: block;
+  color: var(--subtext);
+  font-size: 10px;
+  margin-top: 10px;
+}
+.heroSheet {
+  position: absolute;
+  right: 66px;
+  top: 54px;
+  width: 350px;
+  background: #fcfbff;
+  color: #3c3450;
+  border: 1px solid #d5cde8;
+  border-radius: 12px;
+  padding: 26px;
+  transform: rotate(5deg);
+  box-shadow:
+    12px 18px 0 #ede8f6,
+    0 6px 24px #61528014;
+}
+.heroSheet > div:first-child {
+  font-size: 9px;
+  color: #7566d8;
+  letter-spacing: 0.12em;
+  display: flex;
+  justify-content: space-between;
+}
+.heroSheet > div:first-child span {
+  font-size: 23px;
+}
+.heroSheet h3 {
+  font-size: 18px;
+  margin: 12px 0 6px;
+}
+.heroSheet > p {
+  font-size: 10px;
+  color: #8b819b;
+  margin-bottom: 20px;
+}
+.sample {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #e5dff0;
+  padding: 12px 0;
+  font-size: 11px;
+}
+.sample b {
+  font-size: 23px;
+  color: #7566d8;
+}
+.heroSheet footer {
+  font-size: 8px;
+  border-top: 1px solid #e5dff0;
+  padding-top: 14px;
+  color: #81758f;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.card {
+  display: block;
+  padding: 0;
+  text-align: left;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+  background: var(--surface);
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px #24203312;
+  background: var(--surface);
+}
+.art {
+  height: 150px;
+  position: relative;
+  background: #eee8f5;
+  overflow: hidden;
+  padding: 22px;
+}
+.art > span {
+  font-size: 40px;
+  position: absolute;
+  left: 34px;
+  top: 43px;
+  color: #86709e;
+}
+.mini {
+  background: #fffffff2;
+  width: 180px;
+  min-height: 128px;
+  border: 1px solid #cfc7d7;
+  border-radius: 7px;
+  padding: 16px;
+  position: absolute;
+  right: 26px;
+  top: 27px;
+  transform: rotate(-7deg);
+  color: #575060;
+  box-shadow: 0 6px 12px #6455680c;
+}
+.mini b {
+  font-size: 9px;
+  display: block;
+  margin-bottom: 12px;
+}
+.mini i {
+  display: block;
+  height: 15px;
+  margin: 7px 0;
+  border-top: 1px solid #d8d1e3;
+  position: relative;
+}
+.mini i:after {
+  content: "○";
+  position: absolute;
+  right: 0;
+  top: 2px;
+  color: #8c77ab;
+  font-size: 10px;
+}
+.art1 {
+  background: #e6eeed;
+}
+.art1 > span {
+  color: #6c9693;
+}
+.art1 .mini {
+  transform: rotate(7deg);
+}
+.art2 {
+  background: #f5ecdc;
+}
+.art2 > span {
+  color: #c39e67;
+}
+.art3 {
+  background: #eee9f8;
+}
+.art3 .mini {
+  transform: rotate(6deg);
+}
+.art4 {
+  background: #e5edf4;
+}
+.art4 > span {
+  color: #7397b9;
+}
+.art5 {
+  background: #f3e7e9;
+}
+.art5 > span {
+  color: #b57e8a;
+}
+.cardBody {
+  padding: 22px;
+}
+.category {
+  font-size: 10px;
+  color: var(--primary);
+  background: var(--tint);
+  padding: 4px 9px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.card h3 {
+  font-size: 17px;
+  margin: 0 0 8px;
+}
+.card p {
+  font-size: 12px;
+  color: var(--subtext);
+  min-height: 42px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.card footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid var(--border);
+  padding-top: 15px;
+  font-size: 11px;
+  color: var(--subtext);
+}
+.card footer b {
+  color: var(--primary);
+  font-weight: 500;
+}
+.recent {
+  margin-top: 58px;
+}
+.empty {
+  border: 1px dashed var(--border);
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px;
+  background: var(--surface);
+}
+.empty > span {
+  font-size: 26px;
+  color: var(--primary);
+}
+.empty h3 {
+  margin: 8px 0;
+}
+.empty p {
+  font-size: 12px;
+  color: var(--subtext);
+}
+.empty button {
+  font-size: 13px;
+}
+.recentRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 22px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  margin: 12px 0;
+}
+.recentRow h3 {
+  margin: 0 0 4px;
+  overflow-wrap: anywhere;
+}
+.recentRow small {
+  color: var(--subtext);
+  font-size: 12px;
+}
+.recentRow button,
+.recentRow a {
+  font-size: 12px;
+}
+.answerLink {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 16px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+.answerLink span {
+  color: var(--subtext);
+}
+@media (min-width: 768px) and (max-width: 1000px) {
+  .hero {
+    padding: 38px 28px;
+  }
+  .hero h1 {
+    font-size: 30px;
+  }
+  .heroSheet {
+    right: 32px;
+    top: 70px;
+    width: 290px;
+  }
+  .grid {
+    gap: 16px;
+  }
+  .art {
+    height: 130px;
+  }
+  .mini {
+    right: 15px;
+    width: 150px;
+  }
+  .art > span {
+    left: 15px;
+  }
+  .cardBody {
+    padding: 16px;
+  }
+  .card h3 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+    margin: 24px 0 34px;
+    padding: 28px 24px;
+    min-height: 0;
+  }
+  .hero h1 {
+    font-size: 28px;
+  }
+  .heroSheet {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: calc(100% - 12px);
+    max-width: 360px;
+    margin: 32px auto 8px;
+    padding: 20px;
+    transform: rotate(3deg);
+  }
+  .heroSheet h3 {
+    font-size: 17px;
+  }
+  .hero > p {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .art {
+    height: 118px;
+    padding: 14px;
+  }
+  .art > span {
+    font-size: 27px;
+    left: 12px;
+    top: 40px;
+  }
+  .mini {
+    width: 120px;
+    right: 12px;
+    top: 22px;
+    padding: 12px;
+  }
+  .mini b {
+    font-size: 7px;
+  }
+  .cardBody {
+    padding: 16px;
+  }
+  .card h3 {
+    font-size: 14px;
+  }
+  .card p {
+    font-size: 11px;
+    min-height: 58px;
+  }
+  .card footer {
+    font-size: 10px;
+  }
+  .recent {
+    margin-top: 40px;
+  }
+  .recentRow {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+  .recentRow .actions {
+    width: 100%;
+  }
+  .answerLink {
+    flex-direction: column;
+    gap: 6px;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 420px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .art {
+    height: 130px;
+  }
+  .art > span {
+    left: 40px;
+    font-size: 40px;
+  }
+  .mini {
+    width: 185px;
+    right: 28px;
+  }
+  .mini b {
+    font-size: 10px;
+  }
+  .card p {
+    min-height: 0;
+  }
+  .hero {
+    padding: 26px 18px;
+  }
+  .hero h1 {
+    font-size: 24px;
+  }
+}

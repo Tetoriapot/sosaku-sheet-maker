@@ -1,0 +1,172 @@
+.columns {
+  display: grid;
+  grid-template-columns: minmax(0, 45fr) minmax(0, 55fr);
+  gap: 32px;
+  align-items: start;
+}
+.basic,
+.section {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.basic h2 {
+  font-size: 18px;
+}
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.sectionTitle button {
+  font-size: 12px;
+  padding: 8px;
+}
+.question {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  background: var(--surface);
+  margin: 18px 0;
+  position: relative;
+}
+.questionTop {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.questionTop > .actions {
+  margin-left: auto;
+}
+.questionTop .icon-button {
+  border: 0;
+}
+.drag {
+  font-size: 24px;
+  min-width: 44px;
+  padding: 6px;
+  border: 0;
+  color: var(--subtext);
+  touch-action: none;
+  cursor: grab;
+}
+.questionFooter {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+}
+.questionFooter button {
+  font-size: 12px;
+}
+.options > div {
+  flex-wrap: nowrap;
+  margin: 8px 0;
+}
+.preview {
+  position: sticky;
+  top: 24px;
+  padding: 20px;
+  background: var(--tint);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  max-height: calc(100dvh - 100px);
+  overflow: auto;
+}
+.previewHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  color: var(--subtext);
+  font-size: 13px;
+}
+.previewHeading small {
+  font-size: 11px;
+}
+.bottomBar {
+  position: sticky;
+  bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  max-width: 540px;
+  margin: 24px auto 0;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 4px 30px #0001;
+  z-index: 10;
+}
+.bottomBar > span {
+  color: var(--subtext);
+  font-size: 12px;
+}
+.mobileTabs {
+  display: none;
+}
+@media (max-width: 767px) {
+  .columns {
+    display: block;
+  }
+  .mobileTabs {
+    display: flex;
+    gap: 10px;
+    margin: 24px 0;
+  }
+  .mobileTabs button {
+    flex: 1;
+  }
+  .mobileTabs .active {
+    background: var(--tint);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  .mobileHidden {
+    display: none;
+  }
+  .basic,
+  .section {
+    padding: 16px;
+  }
+  .preview {
+    position: static;
+    max-height: none;
+    padding: 12px;
+  }
+  .bottomBar {
+    bottom: 8px;
+    gap: 8px;
+    padding: 10px;
+  }
+  .bottomBar > span {
+    display: none;
+  }
+  .bottomBar button,
+  .bottomBar a {
+    font-size: 12px;
+    flex: 1;
+  }
+  .question {
+    padding: 12px;
+  }
+  .questionTop {
+    gap: 4px;
+  }
+  .questionTop .eyebrow {
+    font-size: 9px;
+  }
+  .questionTop button {
+    min-width: 36px;
+  }
+  .sectionTitle > .actions {
+    gap: 4px;
+  }
+}

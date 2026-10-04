@@ -1,0 +1,10 @@
+import a from "./templates/uchiyoso-temperature.json";
+import b from "./templates/trigger-check.json";
+import c from "./templates/fifty-questions.json";
+import d from "./templates/communication-style.json";
+import e from "./templates/trpg-session-check.json";
+import f from "./templates/character-deep-dive.json";
+import g from "./templates/rp-policy.json";
+import h from "./templates/project-participation.json";
+import type { Template } from "../types";
+export const templates = [a, b, c, d, e, f, g, h] as Template[];

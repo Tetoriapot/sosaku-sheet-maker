@@ -1,0 +1,280 @@
+{
+  "id": "project-participation",
+  "title": "創作企画参加前チェック",
+  "category": "check",
+  "emoji": "✓",
+  "theme": "rose",
+  "color": "#a15f79",
+  "tagline": "設定の扱いと交流ルールを、参加前に一緒に確認。",
+  "sections": [
+    {
+      "id": "p3-s0",
+      "title": "企画のルール",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s0q0",
+          "text": "企画概要・参加条件を確認した",
+          "type": "yes_no",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "YES"
+            },
+            {
+              "value": "1",
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q1",
+          "text": "作品や交流の公開範囲を確認した",
+          "type": "yes_no",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "YES"
+            },
+            {
+              "value": "1",
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q2",
+          "text": "主催への連絡方法を確認した",
+          "type": "yes_no",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "YES"
+            },
+            {
+              "value": "1",
+              "label": "NO"
+            }
+          ]
+        },
+        {
+          "id": "p3-s0q3",
+          "text": "参加にあたって相談したいこと",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "id": "p3-s1",
+      "title": "キャラクターの扱い",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s1q0",
+          "text": "他の作品に登場させる",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q1",
+          "text": "台詞や行動の代筆",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q2",
+          "text": "衣装・外見のアレンジ",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q3",
+          "text": "過去の設定を一緒に追加する",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q4",
+          "text": "家族・友人の関係を作る",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        },
+        {
+          "id": "p3-s1q5",
+          "text": "交流作品の再掲",
+          "type": "four_level",
+          "description": "",
+          "required": false,
+          "options": [
+            {
+              "value": "0",
+              "label": "◎ 大歓迎"
+            },
+            {
+              "value": "1",
+              "label": "○ OK"
+            },
+            {
+              "value": "2",
+              "label": "△ 要相談"
+            },
+            {
+              "value": "3",
+              "label": "× NG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p3-s2",
+      "title": "交流の進め方",
+      "description": "",
+      "icon": "",
+      "questions": [
+        {
+          "id": "p3-s2q0",
+          "text": "参加中の連絡・返信ペース",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q1",
+          "text": "交流を休むときの連絡方法",
+          "type": "short",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q2",
+          "text": "キャラクターの退場・参加終了の相談",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        },
+        {
+          "id": "p3-s2q3",
+          "text": "相手に伝えておきたいこと",
+          "type": "long",
+          "description": "",
+          "required": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "description": "設定の扱いと交流ルールを、参加前に一緒に確認。",
+  "author": "",
+  "createdAt": "2026-10-02T00:00:00Z",
+  "updatedAt": "2026-10-02T00:00:00Z"
+}

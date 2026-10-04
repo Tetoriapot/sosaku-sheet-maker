@@ -135,7 +135,6 @@ export default function HomePage() {
                     {categories[t.category]}
                   </span>
                   <h3>{t.title}</h3>
-                  <p>{t.tagline}</p>
                   <footer>
                     <span>{questionCount(t)}項目</span>
                     <b>プレビュー ↗</b>
